@@ -22,7 +22,7 @@ export default function ContactForm() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/contact", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -63,7 +63,7 @@ export default function ContactForm() {
           type="text"
           name="firstName"
           placeholder="First Name"
-          value={formData.name}
+          value={formData.firstName}
           onChange={handleChange}
           required
           style={styles.input}
@@ -75,7 +75,7 @@ export default function ContactForm() {
           type="text"
           name="lastName"
           placeholder="Last Name"
-          value={formData.name}
+          value={formData.lastName}
           onChange={handleChange}
           required
           style={styles.input}

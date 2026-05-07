@@ -15,7 +15,7 @@ function Quality(){
                      </ul>
                 </div>
                 <div className="col-lg-6" id='quality-img'>
-                    <img src="./src/assets/images/quality.jpg" alt="" className='img-fluid'/>
+                    <img src="../src/assets/images/quality.jpg" alt="" className='img-fluid'/>
                 </div>
                   <div className="col-lg-6" id='quality-img'>
                     <img src="./src/assets/images/teamleads.jpg" alt="" className='img-fluid'/>

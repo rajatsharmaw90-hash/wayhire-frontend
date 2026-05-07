@@ -11,7 +11,7 @@ function HowWeWork(){
                  <div className="row" id="how-work-row">
                      <div className="col-lg-6" id="how-work-left">
                     <div className="how-work-content">
-                        <img src="./src/assets/images/work-img1.png" alt="" className="img-fluid"/>
+                        <img src="../assets/images/work-img1.png" alt="" className="img-fluid"/>
                          <h5>Understand the operations</h5>
                     <p>We learn the layout, pace, bottlenecks, safety expectations, and labour gaps.</p>
                     </div>
