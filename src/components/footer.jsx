@@ -21,12 +21,6 @@ function Footer() {
               />
             </a>
           </div>
-          <div className="col-lg-4" id="footer-content">
-            <p>
-                info@mywayhire.com
-            </p>
-            <p>www.mywayhire.com</p>
-          </div>
 
           <div className="col-lg-4" id="footer-content">
             <ul>
@@ -37,6 +31,15 @@ function Footer() {
                 <li>Machine Operators</li>
             </ul>
           </div>
+          
+          <div className="col-lg-4" id="footer-content">
+            <p>
+                info@mywayhire.com
+            </p>
+            <p>www.mywayhire.com</p>
+          </div>
+
+          
         </div>
       </div>
    

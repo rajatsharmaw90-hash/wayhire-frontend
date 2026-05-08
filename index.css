@@ -303,4 +303,6 @@
 }
 #footer-content li{
     list-style: none;
+    margin-left: 7px;
+    margin-bottom: 7px;
 }
