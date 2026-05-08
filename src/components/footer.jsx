@@ -24,19 +24,19 @@ function Footer() {
 
           <div className="col-lg-4" id="footer-content">
             <ul>
-                <h5>Services</h5>
+                
                 <li>Staffing & Recruiting</li>
                 <li>Lumping Services</li>
                 <li>Direct Placements</li>
                 <li>Machine Operators</li>
             </ul>
           </div>
-          
+
           <div className="col-lg-4" id="footer-content">
-            <p>
-                info@mywayhire.com
-            </p>
-            <p>www.mywayhire.com</p>
+            <ul>
+              <li>info@mywayhire.com</li>
+              <li>www.mywayhire.com</li>
+            </ul>
           </div>
 
           
