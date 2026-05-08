@@ -11,7 +11,7 @@ import quality from "../assets/images/quality.jpg";
 import teamLeads from "../assets/images/teamleads.jpg"
 import google from "../assets/images/google.png";
 import quote from "../assets/image/right.png";
-import footer from "../assets/images/bluewayhire.png"
+import footer from "../assets/images/blueWayhire.png"
 
 const images ={
     logo,
