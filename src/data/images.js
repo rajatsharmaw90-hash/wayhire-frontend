@@ -1,4 +1,4 @@
-import logo from "../assets/images/wayhirebg.png";
+import logo from "../assets/images/logo.png";
 import heroimg2 from "../assets/images/hero-img2.png";
 import warehouse from "../assets/images/warehouse.svg";
 import constructionSafety from "../assets/images/construction-safety.svg";
