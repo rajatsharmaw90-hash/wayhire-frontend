@@ -18,38 +18,34 @@ export default function ContactForm() {
     });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+ const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/contact`, {
+  try {
+    let response = await fetch(
+      "https://api.mywayhire.com/contact",
+      {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
-      });
-
-      const data = await response.json();
-
-      if (response.ok) {
-        setStatus("Message sent successfully!");
-
-        setFormData({
-          firstName: "",
-          lastName: "",
-          number: "",
-          email: "",
-          message: "",
-        });
-      } else {
-        setStatus(data.message || "Failed to send message");
       }
-    } catch (error) {
-      console.log(error);
-      setStatus("Server error");
+    );
+
+    let data = await response.json();
+
+    if (response.ok) {
+      setStatus("Message sent successfully!");
+    } else {
+      setStatus(data.message);
     }
-  };
+
+  } catch (error) {
+    console.log(error);
+    setStatus("Server Error");
+  }
+};
 
   return (
     <div className="container" id="contact">
