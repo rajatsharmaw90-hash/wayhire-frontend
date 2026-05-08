@@ -1,4 +1,5 @@
 import React from "react";
+import images from "../data/images";
 
 function HowWeWork(){
     return(
@@ -11,7 +12,7 @@ function HowWeWork(){
                  <div className="row" id="how-work-row">
                      <div className="col-lg-6" id="how-work-left">
                     <div className="how-work-content">
-                        <img src="../assets/images/work-img1.png" alt="" className="img-fluid"/>
+                        <img src={images.workImg1} alt="" className="img-fluid"/>
                          <h5>Understand the operations</h5>
                     <p>We learn the layout, pace, bottlenecks, safety expectations, and labour gaps.</p>
                     </div>
@@ -21,7 +22,7 @@ function HowWeWork(){
 
                <div className="col-lg-6" id="how-work-left">
                 <div className="how-work-content">
-                    <img src="./src/assets/images/work-img2.png" alt="" className="img-fluid"/>
+                    <img src={images.workImg2} alt="" className="img-fluid"/>
                     <h5>Match the right workforce</h5>
                     <p>We assign workers based on the job, shift patterns, and operational reality.</p>
                 </div>
@@ -31,7 +32,7 @@ function HowWeWork(){
 
                  <div className="col-lg-6" id="how-work-left">
                     <div className="how-work-content">
-                        <img src="./src/assets/images/work-img3.png" alt="" className="img-fluid"/>
+                        <img src={images.workImg3}alt="" className="img-fluid"/>
                     <h5>Support on Site</h5>
                     <p>On-site follow-up help with attendance, communication,standards, and quick problem solving.</p>
                     </div>
@@ -41,7 +42,7 @@ function HowWeWork(){
 
                 <div className="col-lg-6" id="how-work-left">
                     <div className="how-work-content">
-                        <img src="./src/assets/images/work-img4.png" alt="" className="img-fluid"/>
+                        <img src={images.workImg4} alt="" className="img-fluid"/>
                     <h5>Reduce waste over time</h5>
                     <p>we look for opportunities to improve 5S, motion, organization, and workflow discipline</p>
                     </div>

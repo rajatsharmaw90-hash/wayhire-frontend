@@ -1,4 +1,5 @@
 import React from "react";
+import images from "../data/images";
 
 function Footer() {
   return (
@@ -14,7 +15,7 @@ function Footer() {
           <div className="col-lg-4">
             <a class="footer-brand" href="#">
               <img
-                src="./src/assets/images/bluewayhire.png"
+                src={images.footer}
                 alt=""
                 className="img-fluid"
               />

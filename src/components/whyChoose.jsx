@@ -1,4 +1,5 @@
 import React from "react";
+import images from "../data/images";
 
 function WhyChoose(){
     return(
@@ -15,7 +16,7 @@ function WhyChoose(){
                 <div className="row">
                    
                     <div className="col-lg-6 why-right-img">
-                        <img src="./src/assets/images/hero-img2.png" alt="" className="img-fluid" />
+                        <img src={images.heroimg2} alt="" className="img-fluid" />
                     </div>
                      <div className="col-lg-6">
                         <div className="why-left-content">
@@ -30,9 +31,9 @@ function WhyChoose(){
                             </ul>
 
                             <div className="icon-section">
-                                <img src="./src/assets/images/warehouse.svg" alt="" />
-                                <img src="./src/assets/images/construction-safety.svg" alt="" />
-                                <img src="./src/assets/images/time-management.svg" alt="" />
+                                <img src={images.warehouse} alt="" />
+                                <img src={images.constructionSafety} alt="" />
+                                <img src={images.timeManagement} alt="" />
                                 
                             </div>
                             <p>Labour support that improves flow, discipline, and execution.</p>

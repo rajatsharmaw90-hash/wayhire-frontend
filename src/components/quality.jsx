@@ -1,4 +1,5 @@
 import React from 'react';
+import images from '../data/images';
 
 function Quality(){
     return(
@@ -15,10 +16,10 @@ function Quality(){
                      </ul>
                 </div>
                 <div className="col-lg-6" id='quality-img'>
-                    <img src="../src/assets/images/quality.jpg" alt="" className='img-fluid'/>
+                    <img src={images.quality} alt="" className='img-fluid'/>
                 </div>
                   <div className="col-lg-6" id='quality-img'>
-                    <img src="./src/assets/images/teamleads.jpg" alt="" className='img-fluid'/>
+                    <img src={images.teamLeads} alt="" className='img-fluid'/>
                 </div>
                  <div className="col-lg-6" id='quality-content'>
                      <h3 id='quality'>Leadership and Credibility</h3>
