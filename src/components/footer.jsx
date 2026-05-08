@@ -34,8 +34,8 @@ function Footer() {
 
           <div className="col-lg-4" id="footer-content">
             <ul>
-              <li>info@mywayhire.com</li>
-              <li>www.mywayhire.com</li>
+              <li className="contact-text">info@mywayhire.com</li>
+              <li className="contact-text">www.mywayhire.com</li>
             </ul>
           </div>
 
