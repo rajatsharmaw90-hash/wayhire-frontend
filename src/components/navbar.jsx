@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import images from "../data/images";
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
         <div class="container-fluid" id="navbar">
           <a class="navbar-brand" href="#">
             <img
-              src="./src/assets/images/wayhirebg.png"
+              src={images.logo}
               alt=""
               className="img-fluid"
             />
