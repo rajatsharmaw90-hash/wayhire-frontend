@@ -10,7 +10,7 @@ import workImg4 from "../assets/images/work-img4.png";
 import quality from "../assets/images/quality.jpg";
 import teamLeads from "../assets/images/teamleads.jpg"
 import google from "../assets/images/google.png";
-import quote from "../assets/image/right.png";
+import quote from "../assets/images/right.png";
 import footer from "../assets/images/blueWayhire.png"
 
 const images ={
