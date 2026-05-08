@@ -177,8 +177,10 @@
    transform: scale(1.1);
 }
 #how-work-left img{
-    height: 130px;
-   
+    height: 130px; 
+}
+#how-work-left h5{
+    color: black;
 }
 #how-work-row{
     display: flex;
